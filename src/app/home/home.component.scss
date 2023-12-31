@@ -1,0 +1,19 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 2rem;
+  gap: 1rem;
+
+  .input {
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    @media only screen and (min-width: 550px) {
+      align-items: baseline;
+      flex-direction: row;
+    }
+  }
+}

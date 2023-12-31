@@ -1,0 +1,29 @@
+<mat-card>
+  <div class="track">
+    <div class="index">
+      <b>
+        {{ index ?? "-" }}
+      </b>
+    </div>
+    <div class="title">{{ trackTitle }}</div>
+    <div class="artist">
+      <small>
+        {{ artist }}
+      </small>
+    </div>
+    <div class="actions">
+      <button
+        mat-icon-button
+        [disabled]="!spotifyUrl"
+        [matMenuTriggerFor]="menu"
+      >
+        <mat-icon>more_horiz</mat-icon>
+      </button>
+      <mat-menu #menu="matMenu">
+        <button mat-menu-item (click)="openSpotify()">
+          Spotify <mat-icon>open_in_new</mat-icon>
+        </button>
+      </mat-menu>
+    </div>
+  </div>
+</mat-card>

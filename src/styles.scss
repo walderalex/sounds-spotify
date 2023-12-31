@@ -1,1 +1,122 @@
+@use "@angular/material" as mat;
+
 /* You can add global styles to this file, and also import other style files */
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+app-root {
+  height: 100%;
+  display: block;
+  & > * {
+    height: 100%;
+  }
+}
+
+p,
+h2 {
+  margin: 0;
+}
+
+$primary: mat.define-palette(
+  (
+    900: #002c3c,
+    800: #044153,
+    700: #155368,
+    600: #25677e,
+    500: #32758f,
+    400: #518aa1,
+    300: #6c9fb5,
+    200: #90bccf,
+    100: #b2d9e8,
+    50: #d5f1ff,
+    contrast: (
+      900: white,
+      800: white,
+      700: white,
+      600: black,
+      500: black,
+      400: black,
+      300: black,
+      200: black,
+      100: black,
+      50: black,
+    ),
+  ),
+  800
+);
+
+$accent: mat.define-palette(
+  (
+    900: #531604,
+    800: #632610,
+    700: #713315,
+    600: #81401d,
+    500: #8d4923,
+    400: #a5623e,
+    300: #bd7d5a,
+    200: #dd9e7f,
+    100: #fbc1a2,
+    50: #ffe2bf,
+    contrast: (
+      900: white,
+      800: white,
+      700: white,
+      600: white,
+      500: white,
+      400: black,
+      300: black,
+      200: black,
+      100: black,
+      50: black,
+    ),
+  ),
+  900
+);
+
+$warn: mat.define-palette(
+  (
+    900: #530441,
+    800: #78004f,
+    700: #8d0057,
+    600: #a1005e,
+    500: #b10063,
+    400: #b82b7a,
+    300: #c15191,
+    200: #d081af,
+    100: #e1b2cf,
+    50: #f2e0eb,
+    contrast: (
+      900: white,
+      800: white,
+      700: white,
+      600: white,
+      500: white,
+      400: white,
+      300: black,
+      200: black,
+      100: black,
+      50: black,
+    ),
+  ),
+  900
+);
+
+$my-theme: mat.define-dark-theme(
+  (
+    color: (
+      primary: $primary,
+      accent: $accent,
+      warn: $warn,
+    ),
+    typography: mat.define-typography-config(),
+    density: 0,
+  )
+);
+
+@include mat.all-component-themes($my-theme);

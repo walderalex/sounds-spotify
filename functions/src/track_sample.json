@@ -1,0 +1,2504 @@
+{
+  "modules": {
+    "data": [
+      {
+        "controls": null,
+        "id": "aod_play_area",
+        "type": "inline_display_module",
+        "title": "Player",
+        "description": null,
+        "image_url": null,
+        "data": [
+          {
+            "id": "m001tk6j",
+            "type": "playable_item",
+            "urn": "urn:bbc:radio:episode:m001tk6k",
+            "network": {
+              "id": "bbc_6music",
+              "key": "6music",
+              "short_title": "Radio 6 Music",
+              "logo_url": "https://sounds.files.bbci.co.uk/3.5.0/networks/bbc_6music/{type}_{size}.{format}",
+              "network_type": "master_brand"
+            },
+            "release": {
+              "date": "2023-12-29T00:00:00Z",
+              "label": "29 Dec 2023"
+            },
+            "titles": {
+              "primary": "Craig Charles",
+              "secondary": "29/12/2023",
+              "tertiary": null
+            },
+            "synopses": {
+              "short": "End your week in style with Craig's uplifting mix of music and fun.",
+              "medium": "End your week in style with Craig's uplifting mix of music and fun.",
+              "long": null
+            },
+            "image_url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p0bw64pz.jpg",
+            "duration": { "value": 10800, "label": "180 mins" },
+            "progress": { "value": 8650, "label": "35 mins left" },
+            "availability": {
+              "from": "2023-12-29T16:00:00Z",
+              "to": "2024-01-28T16:00:00Z",
+              "label": "Available for 29 days"
+            },
+            "container": {
+              "type": "brand",
+              "id": "m000h9wt",
+              "urn": "urn:bbc:radio:brand:m000h9wt",
+              "title": "Craig Charles",
+              "synopses": {
+                "short": "The afternoon party that everyone's invited to.",
+                "medium": "The afternoon party that everyone's invited to.",
+                "long": null
+              },
+              "activities": [
+                { "type": "follow_activity", "action": "followed", "urn": null }
+              ]
+            },
+            "uris": [
+              {
+                "type": "latest",
+                "id": null,
+                "label": "Latest",
+                "uri": "/v2/my/programmes/playable?container=m000h9wt&sort=sequential&type=episode&experience=domestic"
+              }
+            ],
+            "activities": [
+              { "type": "play_activity", "action": "heartbeat", "label": null }
+            ],
+            "play_context": null,
+            "guidance": { "competition_warning": false, "warnings": null },
+            "recommendation": null
+          }
+        ],
+        "state": "ok",
+        "style": null,
+        "uris": null,
+        "total": 1
+      },
+      {
+        "controls": null,
+        "id": "aod_tracks",
+        "type": "inline_display_module",
+        "title": "Tracklist",
+        "description": null,
+        "image_url": null,
+        "data": [
+          {
+            "id": "p0h22bvm",
+            "type": "segment_item",
+            "titles": {
+              "primary": "Utah Saints",
+              "secondary": "What Can You Do For Me",
+              "tertiary": null
+            },
+            "image_url": null,
+            "offset": {
+              "start": 5,
+              "end": 224,
+              "label": null,
+              "now_playing": false
+            },
+            "synopses": null,
+            "uris": [
+              {
+                "type": "commercial-music-service",
+                "id": "commercial-music-service-spotify",
+                "label": "Spotify",
+                "uri": "https://open.spotify.com/track/7s4TZQlMPXxXVGCIuu5crd"
+              },
+              {
+                "type": "commercial-music-service",
+                "id": "commercial-music-service-apple",
+                "label": "Apple Music",
+                "uri": "https://music.apple.com/gb/album/what-can-you-do-for-me-radio-edit/1668476967?i=1668476976"
+              }
+            ]
+          },
+          {
+            "id": "p0h22cbd",
+            "type": "segment_item",
+            "titles": {
+              "primary": "Jalen Ngonda",
+              "secondary": "Rapture",
+              "tertiary": null
+            },
+            "image_url": null,
+            "offset": {
+              "start": 216,
+              "end": 363,
+              "label": null,
+              "now_playing": false
+            },
+            "synopses": null,
+            "uris": [
+              {
+                "type": "commercial-music-service",
+                "id": "commercial-music-service-spotify",
+                "label": "Spotify",
+                "uri": "https://open.spotify.com/track/3osAKU8N7haVZCfmvVC9gr"
+              },
+              {
+                "type": "commercial-music-service",
+                "id": "commercial-music-service-apple",
+                "label": "Apple Music",
+                "uri": "https://music.apple.com/gb/album/rapture/1675144720?i=1675144914"
+              }
+            ]
+          },
+          {
+            "id": "p0h22df2",
+            "type": "segment_item",
+            "titles": {
+              "primary": "Angie Stone",
+              "secondary": "Wish I Didn't Miss You",
+              "tertiary": null
+            },
+            "image_url": null,
+            "offset": {
+              "start": 415,
+              "end": 653,
+              "label": null,
+              "now_playing": false
+            },
+            "synopses": null,
+            "uris": [
+              {
+                "type": "commercial-music-service",
+                "id": "commercial-music-service-spotify",
+                "label": "Spotify",
+                "uri": "https://open.spotify.com/track/3tZm76otWH20xzJC7icHCk"
+              },
+              {
+                "type": "commercial-music-service",
+                "id": "commercial-music-service-apple",
+                "label": "Apple Music",
+                "uri": "https://music.apple.com/gb/album/wish-i-didnt-miss-you-radio-edit/795614222?i=795614296"
+              }
+            ]
+          },
+          {
+            "id": "p0h22f17",
+            "type": "segment_item",
+            "titles": {
+              "primary": "The Flaming Lips",
+              "secondary": "Do You Realize??",
+              "tertiary": null
+            },
+            "image_url": null,
+            "offset": {
+              "start": 657,
+              "end": 866,
+              "label": null,
+              "now_playing": false
+            },
+            "synopses": null,
+            "uris": [
+              {
+                "type": "commercial-music-service",
+                "id": "commercial-music-service-spotify",
+                "label": "Spotify",
+                "uri": "https://open.spotify.com/track/2DFRFqWNahKtFD112H2iEZ"
+              },
+              {
+                "type": "commercial-music-service",
+                "id": "commercial-music-service-apple",
+                "label": "Apple Music",
+                "uri": "https://music.apple.com/gb/album/do-you-realize/465555618?i=465555701"
+              }
+            ]
+          },
+          {
+            "id": "p0h22f91",
+            "type": "segment_item",
+            "titles": {
+              "primary": "Black Rebel Motorcycle Club",
+              "secondary": "Spread Your Love",
+              "tertiary": null
+            },
+            "image_url": null,
+            "offset": {
+              "start": 861,
+              "end": 1081,
+              "label": null,
+              "now_playing": false
+            },
+            "synopses": null,
+            "uris": [
+              {
+                "type": "commercial-music-service",
+                "id": "commercial-music-service-spotify",
+                "label": "Spotify",
+                "uri": "https://open.spotify.com/track/4mpAm83XX1iS63l8wmkEC6"
+              },
+              {
+                "type": "commercial-music-service",
+                "id": "commercial-music-service-apple",
+                "label": "Apple Music",
+                "uri": "https://music.apple.com/gb/album/spread-your-love/724976995?i=724977191"
+              }
+            ]
+          },
+          {
+            "id": "p0h22g83",
+            "type": "segment_item",
+            "titles": {
+              "primary": "Kaeto",
+              "secondary": "No Body",
+              "tertiary": null
+            },
+            "image_url": null,
+            "offset": {
+              "start": 1345,
+              "end": 1504,
+              "label": null,
+              "now_playing": false
+            },
+            "synopses": null,
+            "uris": [
+              {
+                "type": "commercial-music-service",
+                "id": "commercial-music-service-spotify",
+                "label": "Spotify",
+                "uri": "https://open.spotify.com/track/4BdA7ZtP00Dda9UWiSAn2F"
+              },
+              {
+                "type": "commercial-music-service",
+                "id": "commercial-music-service-apple",
+                "label": "Apple Music",
+                "uri": "https://music.apple.com/gb/album/no-body/1707476056?i=1707476057"
+              }
+            ]
+          },
+          {
+            "id": "p0h22gk0",
+            "type": "segment_item",
+            "titles": {
+              "primary": "Christine and the Queens",
+              "secondary": "I Disappear In Your Arms",
+              "tertiary": null
+            },
+            "image_url": null,
+            "offset": {
+              "start": 1500,
+              "end": 1732,
+              "label": null,
+              "now_playing": false
+            },
+            "synopses": null,
+            "uris": [
+              {
+                "type": "commercial-music-service",
+                "id": "commercial-music-service-spotify",
+                "label": "Spotify",
+                "uri": "https://open.spotify.com/track/5Z6hPYs0yG1lZrQ2SbD4bM"
+              },
+              {
+                "type": "commercial-music-service",
+                "id": "commercial-music-service-apple",
+                "label": "Apple Music",
+                "uri": "https://music.apple.com/gb/album/i-disappear-in-your-arms/1553306726?i=1553307366"
+              }
+            ]
+          },
+          {
+            "id": "p0h22htw",
+            "type": "segment_item",
+            "titles": {
+              "primary": "Bhundu Boys",
+              "secondary": "Jit Jive",
+              "tertiary": null
+            },
+            "image_url": null,
+            "offset": {
+              "start": 2022,
+              "end": 2250,
+              "label": null,
+              "now_playing": false
+            },
+            "synopses": null,
+            "uris": [
+              {
+                "type": "commercial-music-service",
+                "id": "commercial-music-service-spotify",
+                "label": "Spotify",
+                "uri": "https://open.spotify.com/track/5EGBrGm3P5RPDIlbqfAIvX"
+              },
+              {
+                "type": "commercial-music-service",
+                "id": "commercial-music-service-apple",
+                "label": "Apple Music",
+                "uri": "https://music.apple.com/gb/album/jit-jive/1297508901?i=1297509768"
+              }
+            ]
+          },
+          {
+            "id": "p0h22k0s",
+            "type": "segment_item",
+            "titles": {
+              "primary": "KAYTRANADA",
+              "secondary": "Lover/Friend (feat. Rochelle Jordan)",
+              "tertiary": null
+            },
+            "image_url": null,
+            "offset": {
+              "start": 2246,
+              "end": 2449,
+              "label": null,
+              "now_playing": false
+            },
+            "synopses": null,
+            "uris": [
+              {
+                "type": "commercial-music-service",
+                "id": "commercial-music-service-spotify",
+                "label": "Spotify",
+                "uri": "https://open.spotify.com/track/5ahq8vkzMznGmfN2EVOukP"
+              },
+              {
+                "type": "commercial-music-service",
+                "id": "commercial-music-service-apple",
+                "label": "Apple Music",
+                "uri": "https://music.apple.com/gb/album/lover-friend/1716982230?i=1716982232"
+              }
+            ]
+          },
+          {
+            "id": "p0h22lbp",
+            "type": "segment_item",
+            "titles": {
+              "primary": "Billy Nomates",
+              "secondary": "Black Curtains In The Bag (6 Music session, 20th April 2023)",
+              "tertiary": null
+            },
+            "image_url": null,
+            "offset": {
+              "start": 2609,
+              "end": 2815,
+              "label": null,
+              "now_playing": false
+            },
+            "synopses": null,
+            "uris": [
+              {
+                "type": "commercial-music-service",
+                "id": "commercial-music-service-apple",
+                "label": "Apple Music",
+                "uri": "https://music.apple.com/gb/album/black-curtains-in-the-bag/1640021389?i=1640021402"
+              }
+            ]
+          },
+          {
+            "id": "p0h22lyn",
+            "type": "segment_item",
+            "titles": {
+              "primary": "Dream Wife",
+              "secondary": "Hey Heartbreaker",
+              "tertiary": null
+            },
+            "image_url": null,
+            "offset": {
+              "start": 2901,
+              "end": 3099,
+              "label": null,
+              "now_playing": false
+            },
+            "synopses": null,
+            "uris": [
+              {
+                "type": "commercial-music-service",
+                "id": "commercial-music-service-spotify",
+                "label": "Spotify",
+                "uri": "https://open.spotify.com/track/7rSKClwEWhLnNAEASAYRXE"
+              },
+              {
+                "type": "commercial-music-service",
+                "id": "commercial-music-service-apple",
+                "label": "Apple Music",
+                "uri": "https://music.apple.com/gb/album/hey-heartbreaker/1295081132?i=1295081615"
+              }
+            ]
+          },
+          {
+            "id": "p0h22m7c",
+            "type": "segment_item",
+            "titles": {
+              "primary": "Heartworms",
+              "secondary": "May I Comply",
+              "tertiary": null
+            },
+            "image_url": null,
+            "offset": {
+              "start": 3102,
+              "end": 3275,
+              "label": null,
+              "now_playing": false
+            },
+            "synopses": null,
+            "uris": [
+              {
+                "type": "commercial-music-service",
+                "id": "commercial-music-service-spotify",
+                "label": "Spotify",
+                "uri": "https://open.spotify.com/track/7BCv8kdJnH5NSUL8d4kzh5"
+              },
+              {
+                "type": "commercial-music-service",
+                "id": "commercial-music-service-apple",
+                "label": "Apple Music",
+                "uri": "https://music.apple.com/gb/album/may-i-comply/1708416171?i=1708416238"
+              }
+            ]
+          },
+          {
+            "id": "p0h22mtf",
+            "type": "segment_item",
+            "titles": {
+              "primary": "Pigs Pigs Pigs Pigs Pigs Pigs Pigs",
+              "secondary": "Mr Medicine (6Music Session 21st February 2023)",
+              "tertiary": null
+            },
+            "image_url": null,
+            "offset": {
+              "start": 3439,
+              "end": 3577,
+              "label": null,
+              "now_playing": false
+            },
+            "synopses": null,
+            "uris": []
+          },
+          {
+            "id": "p0h22n1v",
+            "type": "segment_item",
+            "titles": {
+              "primary": "Cream",
+              "secondary": "Crossroads",
+              "tertiary": null
+            },
+            "image_url": null,
+            "offset": {
+              "start": 3617,
+              "end": 3868,
+              "label": null,
+              "now_playing": false
+            },
+            "synopses": null,
+            "uris": [
+              {
+                "type": "commercial-music-service",
+                "id": "commercial-music-service-spotify",
+                "label": "Spotify",
+                "uri": "https://open.spotify.com/track/6PUabSMXmPnZna361Wwmf7"
+              },
+              {
+                "type": "commercial-music-service",
+                "id": "commercial-music-service-apple",
+                "label": "Apple Music",
+                "uri": "https://music.apple.com/gb/album/crossroads-live/1440830708?i=1440831035"
+              }
+            ]
+          },
+          {
+            "id": "p0h22nrl",
+            "type": "segment_item",
+            "titles": {
+              "primary": "The Staves",
+              "secondary": "All Now",
+              "tertiary": null
+            },
+            "image_url": null,
+            "offset": {
+              "start": 3861,
+              "end": 4096,
+              "label": null,
+              "now_playing": false
+            },
+            "synopses": null,
+            "uris": [
+              {
+                "type": "commercial-music-service",
+                "id": "commercial-music-service-spotify",
+                "label": "Spotify",
+                "uri": "https://open.spotify.com/track/7gEQuszu1NiKweV7zOTFr6"
+              },
+              {
+                "type": "commercial-music-service",
+                "id": "commercial-music-service-apple",
+                "label": "Apple Music",
+                "uri": "https://music.apple.com/gb/album/all-now/1711410930?i=1711410940"
+              }
+            ]
+          },
+          {
+            "id": "p0h22rmc",
+            "type": "segment_item",
+            "titles": {
+              "primary": "Killer Mike",
+              "secondary": "Run (6 Music Session, 9th November 2023)",
+              "tertiary": null
+            },
+            "image_url": null,
+            "offset": {
+              "start": 4468,
+              "end": 4659,
+              "label": null,
+              "now_playing": false
+            },
+            "synopses": null,
+            "uris": [
+              {
+                "type": "commercial-music-service",
+                "id": "commercial-music-service-apple",
+                "label": "Apple Music",
+                "uri": "https://music.apple.com/gb/album/kryptonite/712356411?i=712356758"
+              }
+            ]
+          },
+          {
+            "id": "p0h22sf2",
+            "type": "segment_item",
+            "titles": {
+              "primary": "Mount Kimbie",
+              "secondary": "Dumb Guitar",
+              "tertiary": null
+            },
+            "image_url": null,
+            "offset": {
+              "start": 4740,
+              "end": 4973,
+              "label": null,
+              "now_playing": false
+            },
+            "synopses": null,
+            "uris": [
+              {
+                "type": "commercial-music-service",
+                "id": "commercial-music-service-spotify",
+                "label": "Spotify",
+                "uri": "https://open.spotify.com/track/50UWt4jx8Y1t8EoV0ODKDL"
+              },
+              {
+                "type": "commercial-music-service",
+                "id": "commercial-music-service-apple",
+                "label": "Apple Music",
+                "uri": "https://music.apple.com/gb/album/dumb-guitar/1710129728?i=1710129729"
+              }
+            ]
+          },
+          {
+            "id": "p0h22t5k",
+            "type": "segment_item",
+            "titles": {
+              "primary": "St Germain",
+              "secondary": "Rose Rouge",
+              "tertiary": null
+            },
+            "image_url": null,
+            "offset": {
+              "start": 5105,
+              "end": 5395,
+              "label": null,
+              "now_playing": false
+            },
+            "synopses": null,
+            "uris": [
+              {
+                "type": "commercial-music-service",
+                "id": "commercial-music-service-spotify",
+                "label": "Spotify",
+                "uri": "https://open.spotify.com/track/1divptdjcWXvF1aflfTQnw"
+              },
+              {
+                "type": "commercial-music-service",
+                "id": "commercial-music-service-apple",
+                "label": "Apple Music",
+                "uri": "https://music.apple.com/gb/album/rose-rouge/717406560?i=717406613"
+              }
+            ]
+          },
+          {
+            "id": "p0h22thh",
+            "type": "segment_item",
+            "titles": {
+              "primary": "Awesome 3",
+              "secondary": "Don't Go (Kicks Like A Mule Mix) (feat. Kicks Like a Mule)",
+              "tertiary": null
+            },
+            "image_url": null,
+            "offset": {
+              "start": 5576,
+              "end": 5793,
+              "label": null,
+              "now_playing": false
+            },
+            "synopses": null,
+            "uris": [
+              {
+                "type": "commercial-music-service",
+                "id": "commercial-music-service-spotify",
+                "label": "Spotify",
+                "uri": "https://open.spotify.com/track/6kfBFZkYNCtlqntnLFaei4"
+              },
+              {
+                "type": "commercial-music-service",
+                "id": "commercial-music-service-apple",
+                "label": "Apple Music",
+                "uri": "https://music.apple.com/gb/album/dont-go-kicks-like-a-mule-mix/311189910?i=311189942"
+              }
+            ]
+          },
+          {
+            "id": "p0h22ts0",
+            "type": "segment_item",
+            "titles": {
+              "primary": "KNEECAP",
+              "secondary": "Better Way To Live (feat. Grian Chatten)",
+              "tertiary": null
+            },
+            "image_url": null,
+            "offset": {
+              "start": 5792,
+              "end": 5969,
+              "label": null,
+              "now_playing": false
+            },
+            "synopses": null,
+            "uris": [
+              {
+                "type": "commercial-music-service",
+                "id": "commercial-music-service-apple",
+                "label": "Apple Music",
+                "uri": "https://music.apple.com/gb/album/better-way-to-live-feat-grian-chatten/1711573516?i=1711573524"
+              }
+            ]
+          },
+          {
+            "id": "p0h22v0h",
+            "type": "segment_item",
+            "titles": {
+              "primary": "Mike Garry and The Cassio String Quartet",
+              "secondary": "Tonight",
+              "tertiary": null
+            },
+            "image_url": null,
+            "offset": {
+              "start": 6025,
+              "end": 6248,
+              "label": null,
+              "now_playing": false
+            },
+            "synopses": null,
+            "uris": []
+          },
+          {
+            "id": "p0h22w3w",
+            "type": "segment_item",
+            "titles": {
+              "primary": "Marika Hackman",
+              "secondary": "Slime",
+              "tertiary": null
+            },
+            "image_url": null,
+            "offset": {
+              "start": 6630,
+              "end": 6861,
+              "label": null,
+              "now_playing": false
+            },
+            "synopses": null,
+            "uris": [
+              {
+                "type": "commercial-music-service",
+                "id": "commercial-music-service-spotify",
+                "label": "Spotify",
+                "uri": "https://open.spotify.com/track/3jWZUXWXIWDsXVwrkwjOhS"
+              },
+              {
+                "type": "commercial-music-service",
+                "id": "commercial-music-service-apple",
+                "label": "Apple Music",
+                "uri": "https://music.apple.com/gb/album/slime/1699834667?i=1699835633"
+              }
+            ]
+          },
+          {
+            "id": "p0h22xlc",
+            "type": "segment_item",
+            "titles": {
+              "primary": "The Big Moon",
+              "secondary": "2 Lines (6 Music Session, 12 Dec 2023)",
+              "tertiary": null
+            },
+            "image_url": null,
+            "offset": {
+              "start": 7494,
+              "end": 7757,
+              "label": null,
+              "now_playing": false
+            },
+            "synopses": null,
+            "uris": []
+          },
+          {
+            "id": "p0h22yj8",
+            "type": "segment_item",
+            "titles": {
+              "primary": "Romy",
+              "secondary": "Enjoy Your Life",
+              "tertiary": null
+            },
+            "image_url": null,
+            "offset": {
+              "start": 7802,
+              "end": 8007,
+              "label": null,
+              "now_playing": false
+            },
+            "synopses": null,
+            "uris": [
+              {
+                "type": "commercial-music-service",
+                "id": "commercial-music-service-spotify",
+                "label": "Spotify",
+                "uri": "https://open.spotify.com/track/0yM2YvOGR3cBIoWBeFdtmS"
+              },
+              {
+                "type": "commercial-music-service",
+                "id": "commercial-music-service-apple",
+                "label": "Apple Music",
+                "uri": "https://music.apple.com/gb/album/enjoy-your-life/1677590070?i=1677590074"
+              }
+            ]
+          },
+          {
+            "id": "p0h22zby",
+            "type": "segment_item",
+            "titles": {
+              "primary": "The Temptations",
+              "secondary": "Ball of Confusion (That's What the World is Today)",
+              "tertiary": null
+            },
+            "image_url": null,
+            "offset": {
+              "start": 8006,
+              "end": 8245,
+              "label": null,
+              "now_playing": false
+            },
+            "synopses": null,
+            "uris": [
+              {
+                "type": "commercial-music-service",
+                "id": "commercial-music-service-spotify",
+                "label": "Spotify",
+                "uri": "https://open.spotify.com/track/0WVjFHFO7Wsqc6qArMNxmS"
+              },
+              {
+                "type": "commercial-music-service",
+                "id": "commercial-music-service-apple",
+                "label": "Apple Music",
+                "uri": "https://music.apple.com/gb/album/ball-of-confusion-thats-what-the-world-is-today/1471563127?i=1471564309"
+              }
+            ]
+          },
+          {
+            "id": "p0h232t3",
+            "type": "segment_item",
+            "titles": {
+              "primary": "The Jesus and Mary Chain",
+              "secondary": "jamcod",
+              "tertiary": null
+            },
+            "image_url": null,
+            "offset": {
+              "start": 8771,
+              "end": 8986,
+              "label": null,
+              "now_playing": false
+            },
+            "synopses": null,
+            "uris": [
+              {
+                "type": "commercial-music-service",
+                "id": "commercial-music-service-spotify",
+                "label": "Spotify",
+                "uri": "https://open.spotify.com/track/1DBRdzUgZrX7WBygQD2GhR"
+              },
+              {
+                "type": "commercial-music-service",
+                "id": "commercial-music-service-apple",
+                "label": "Apple Music",
+                "uri": "https://music.apple.com/gb/album/jamcod/1718603729?i=1718604333"
+              }
+            ]
+          },
+          {
+            "id": "p0h233st",
+            "type": "segment_item",
+            "titles": {
+              "primary": "Mos Def",
+              "secondary": "Quiet Dog",
+              "tertiary": null
+            },
+            "image_url": null,
+            "offset": {
+              "start": 9195,
+              "end": 9351,
+              "label": null,
+              "now_playing": false
+            },
+            "synopses": null,
+            "uris": [
+              {
+                "type": "commercial-music-service",
+                "id": "commercial-music-service-apple",
+                "label": "Apple Music",
+                "uri": "https://music.apple.com/gb/album/quiet-dog/396406332?i=396406407"
+              }
+            ]
+          },
+          {
+            "id": "p0h234dz",
+            "type": "segment_item",
+            "titles": {
+              "primary": "Biig Piig",
+              "secondary": "Watch Me",
+              "tertiary": null
+            },
+            "image_url": null,
+            "offset": {
+              "start": 9352,
+              "end": 9549,
+              "label": null,
+              "now_playing": false
+            },
+            "synopses": null,
+            "uris": [
+              {
+                "type": "commercial-music-service",
+                "id": "commercial-music-service-spotify",
+                "label": "Spotify",
+                "uri": "https://open.spotify.com/track/3Zu4WIeXp4NbQZbcqv1MOr"
+              },
+              {
+                "type": "commercial-music-service",
+                "id": "commercial-music-service-apple",
+                "label": "Apple Music",
+                "uri": "https://music.apple.com/gb/album/watch-me/1712658514?i=1712658516"
+              }
+            ]
+          },
+          {
+            "id": "p0h234p7",
+            "type": "segment_item",
+            "titles": {
+              "primary": "Sweeping Promises",
+              "secondary": "Eraser",
+              "tertiary": null
+            },
+            "image_url": null,
+            "offset": {
+              "start": 9650,
+              "end": 9813,
+              "label": null,
+              "now_playing": false
+            },
+            "synopses": null,
+            "uris": [
+              {
+                "type": "commercial-music-service",
+                "id": "commercial-music-service-spotify",
+                "label": "Spotify",
+                "uri": "https://open.spotify.com/track/1wJQVdyq6VtUL5o7yVS5W0"
+              },
+              {
+                "type": "commercial-music-service",
+                "id": "commercial-music-service-apple",
+                "label": "Apple Music",
+                "uri": "https://music.apple.com/gb/album/eraser/1680263002?i=1680263006"
+              }
+            ]
+          },
+          {
+            "id": "p0h23574",
+            "type": "segment_item",
+            "titles": {
+              "primary": "Bob Vylan",
+              "secondary": "Dream Big",
+              "tertiary": null
+            },
+            "image_url": null,
+            "offset": {
+              "start": 9937,
+              "end": 10120,
+              "label": null,
+              "now_playing": false
+            },
+            "synopses": null,
+            "uris": [
+              {
+                "type": "commercial-music-service",
+                "id": "commercial-music-service-spotify",
+                "label": "Spotify",
+                "uri": "https://open.spotify.com/track/0xvXVHHSdl0EjXFobmL6Ip"
+              },
+              {
+                "type": "commercial-music-service",
+                "id": "commercial-music-service-apple",
+                "label": "Apple Music",
+                "uri": "https://music.apple.com/gb/album/dream-big/1693889146?i=1693889147"
+              }
+            ]
+          },
+          {
+            "id": "p0h2364b",
+            "type": "segment_item",
+            "titles": {
+              "primary": "Les Amazones d’Afrique",
+              "secondary": "Kuma Fo (What They Say)",
+              "tertiary": null
+            },
+            "image_url": null,
+            "offset": {
+              "start": 10148,
+              "end": 10361,
+              "label": null,
+              "now_playing": false
+            },
+            "synopses": null,
+            "uris": [
+              {
+                "type": "commercial-music-service",
+                "id": "commercial-music-service-spotify",
+                "label": "Spotify",
+                "uri": "https://open.spotify.com/track/3GWfxdvIdt6lv2PQ6IbozZ"
+              },
+              {
+                "type": "commercial-music-service",
+                "id": "commercial-music-service-apple",
+                "label": "Apple Music",
+                "uri": "https://music.apple.com/gb/album/kuma-fo-what-they-say/1711264869?i=1711266017"
+              }
+            ]
+          }
+        ],
+        "state": "ok",
+        "style": null,
+        "uris": null,
+        "total": null
+      },
+      {
+        "controls": null,
+        "id": "play_queue",
+        "type": "inline_display_module",
+        "title": "Coming Up Next",
+        "description": null,
+        "image_url": null,
+        "data": [
+          {
+            "id": "m001tk6j",
+            "type": "playable_item",
+            "urn": "urn:bbc:radio:episode:m001tk6k",
+            "network": {
+              "id": "bbc_6music",
+              "key": "6music",
+              "short_title": "Radio 6 Music",
+              "logo_url": "https://sounds.files.bbci.co.uk/3.5.0/networks/bbc_6music/{type}_{size}.{format}",
+              "network_type": "master_brand"
+            },
+            "release": {
+              "date": "2023-12-29T00:00:00Z",
+              "label": "29 Dec 2023"
+            },
+            "titles": {
+              "primary": "Craig Charles",
+              "secondary": "29/12/2023",
+              "tertiary": null
+            },
+            "synopses": {
+              "short": "End your week in style with Craig's uplifting mix of music and fun.",
+              "medium": "End your week in style with Craig's uplifting mix of music and fun.",
+              "long": null
+            },
+            "image_url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p0bw64pz.jpg",
+            "duration": { "value": 10800, "label": "180 mins" },
+            "progress": { "value": 8650, "label": "35 mins left" },
+            "availability": {
+              "from": "2023-12-29T16:00:00Z",
+              "to": "2024-01-28T16:00:00Z",
+              "label": "Available for 29 days"
+            },
+            "container": {
+              "type": "brand",
+              "id": "m000h9wt",
+              "urn": "urn:bbc:radio:brand:m000h9wt",
+              "title": "Craig Charles",
+              "synopses": {
+                "short": "The afternoon party that everyone's invited to.",
+                "medium": "The afternoon party that everyone's invited to.",
+                "long": null
+              },
+              "activities": [
+                { "type": "follow_activity", "action": "followed", "urn": null }
+              ]
+            },
+            "uris": [
+              {
+                "type": "latest",
+                "id": null,
+                "label": "Latest",
+                "uri": "/v2/my/programmes/playable?container=m000h9wt&sort=sequential&type=episode&experience=domestic"
+              }
+            ],
+            "activities": [
+              { "type": "play_activity", "action": "heartbeat", "label": null }
+            ],
+            "play_context": null,
+            "guidance": { "competition_warning": false, "warnings": null },
+            "recommendation": null
+          }
+        ],
+        "state": "ok",
+        "style": null,
+        "uris": null,
+        "total": 0
+      },
+      {
+        "controls": null,
+        "id": "recommendations",
+        "type": "inline_display_module",
+        "title": "Recommended For You",
+        "description": "Latest episodes recommended for you",
+        "image_url": null,
+        "data": [
+          {
+            "id": "m001st7d",
+            "type": "playable_item",
+            "urn": "urn:bbc:radio:episode:m001st7g",
+            "network": {
+              "id": "bbc_6music",
+              "key": "6music",
+              "short_title": "Radio 6 Music",
+              "logo_url": "https://sounds.files.bbci.co.uk/3.5.0/networks/bbc_6music/{type}_{size}.{format}",
+              "network_type": "master_brand"
+            },
+            "release": {
+              "date": "2023-12-03T00:00:00Z",
+              "label": "03 Dec 2023"
+            },
+            "titles": {
+              "primary": "Guy Garvey's Finest Hour",
+              "secondary": "It's all about those Songs for Guy.",
+              "tertiary": null
+            },
+            "synopses": {
+              "short": "Guy picks some of his favourite Song for Guy suggestions from Finest Hour listeners.",
+              "medium": "Guy picks some of his favourite Song for Guy suggestions from Finest Hour listeners.  Plus his featured artists are the wonderful REM.",
+              "long": "Guy picks some of his favourite Song for Guy suggestions from Finest Hour listeners.\n\nAlso, his featured artists are the wonderful REM, and there's a Rabbit Hole taking the scenic route from Christine and the Queens to Chet Baker."
+            },
+            "image_url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p0bw6zhs.jpg",
+            "duration": { "value": 10800, "label": "180 mins" },
+            "progress": null,
+            "availability": {
+              "from": "2023-12-03T16:00:00Z",
+              "to": "2024-01-02T16:00:00Z",
+              "label": "Available for 3 days"
+            },
+            "container": {
+              "type": "brand",
+              "id": "b0072q60",
+              "urn": "urn:bbc:radio:brand:b0072q60",
+              "title": "Guy Garvey's Finest Hour",
+              "synopses": {
+                "short": "Elbow frontman Guy Garvey brings his own unique taste to 6 Music.",
+                "medium": "Elbow frontman Guy Garvey brings his own unique taste to 6 Music.",
+                "long": null
+              },
+              "activities": [
+                { "type": "follow_activity", "action": "followed", "urn": null }
+              ]
+            },
+            "uris": [
+              {
+                "type": "latest",
+                "id": null,
+                "label": "Latest",
+                "uri": "/v2/my/programmes/playable?container=b0072q60&sort=sequential&type=episode&experience=domestic"
+              }
+            ],
+            "activities": [],
+            "play_context": null,
+            "guidance": { "competition_warning": false, "warnings": null },
+            "recommendation": {
+              "algorithm": "xantus::recommended-for-you::3.8::personalised::sounds-xantus-homepage"
+            }
+          },
+          {
+            "id": "p0gwbcpy",
+            "type": "playable_item",
+            "urn": "urn:bbc:radio:episode:p0gwbflx",
+            "network": {
+              "id": "bbc_radio_wales",
+              "key": "radiowales",
+              "short_title": "Radio Wales",
+              "logo_url": "https://sounds.files.bbci.co.uk/3.5.0/networks/bbc_radio_wales/{type}_{size}.{format}",
+              "network_type": "master_brand"
+            },
+            "release": {
+              "date": "2023-11-28T00:00:00Z",
+              "label": "28 Nov 2023"
+            },
+            "titles": {
+              "primary": "Death of a Codebreaker",
+              "secondary": "5: Private Passions",
+              "tertiary": null
+            },
+            "synopses": {
+              "short": "Dr Sian Williams charts the story of Gareth Williams, the codebreaker found naked in a bag",
+              "medium": "In part five of Death of a Codebreaker, Dr Sian Williams explores suggestions his private life may have been linked to Gareth Williams' death",
+              "long": "Young Welshman Gareth Williams was found naked inside a relatively small bag in his bath in 2010. And another theory is that he was the victim of a bizarre sex game gone wrong. There are suggestions he may have had an interest in Claustrophilia - pleasure derived from being in a confined space. But how much evidence is there? Here Dr Sian Williams looks at what we know and don't know about Gareth's private life.\n\nDeath of a Codebreaker is presented by Dr Sian Williams with contributions in Episode 5 from James Pepper, Ashley Byrne, Tracy Cardwell and Wayne Wright.\nProducers: James Pepper, Ashley Byrne and Wayne Wright\nThe Executive Producer is Ashley Byrne..\nMusic by Robin Forrest\nThe Sound editor: Kevin Bailey\nDeath of a Codebreaker is an MIM Production for BBC Sounds and BBC Radio Wales."
+            },
+            "image_url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p0gpv5k5.jpg",
+            "duration": { "value": 1681, "label": "28 mins" },
+            "progress": null,
+            "availability": {
+              "from": "2023-11-28T10:30:00Z",
+              "to": null,
+              "label": "Available for over a year"
+            },
+            "container": {
+              "type": "brand",
+              "id": "p0gpv57h",
+              "urn": "urn:bbc:radio:brand:p0gpv57h",
+              "title": "Death of a Codebreaker",
+              "synopses": {
+                "short": "The Welsh codebreaker whose naked body was found inside a bag in his bath in 2010.",
+                "medium": "Dr Sian Williams investigates the story of the Welsh codebreaker whose naked body was found inside a bag in his bath. Mystery still surrounds how and why Gareth Williams died.",
+                "long": null
+              },
+              "activities": [
+                { "type": "follow_activity", "action": "followed", "urn": null }
+              ]
+            },
+            "uris": [
+              {
+                "type": "latest",
+                "id": null,
+                "label": "Latest",
+                "uri": "/v2/my/programmes/playable?container=p0gpv57h&sort=sequential&type=episode&experience=domestic"
+              }
+            ],
+            "activities": [],
+            "play_context": null,
+            "guidance": {
+              "competition_warning": false,
+              "warnings": {
+                "short": "Contains sexual content.",
+                "long": "Contains scenes of a sexual nature."
+              }
+            },
+            "recommendation": {
+              "algorithm": "xantus::recommended-for-you::3.8::personalised::sounds-xantus-homepage"
+            }
+          },
+          {
+            "id": "b04c9tk2",
+            "type": "playable_item",
+            "urn": "urn:bbc:radio:episode:b04c9xcg",
+            "network": {
+              "id": "bbc_radio_four",
+              "key": "radio4",
+              "short_title": "Radio 4",
+              "logo_url": "https://sounds.files.bbci.co.uk/3.5.0/networks/bbc_radio_four/{type}_{size}.{format}",
+              "network_type": "master_brand"
+            },
+            "release": {
+              "date": "2014-08-03T00:00:00Z",
+              "label": "03 Aug 2014"
+            },
+            "titles": {
+              "primary": "Desert Island Discs",
+              "secondary": "Guy Garvey",
+              "tertiary": null
+            },
+            "synopses": {
+              "short": "Kirsty Young talks to Guy Garvey, musician and frontman of Elbow.",
+              "medium": "Kirsty Young talks to Guy Garvey, musician and frontman of Elbow.",
+              "long": "Guy Garvey, musician and frontman of Elbow, is interviewed by Kirsty Young for Desert island Discs.\n\nFront man of the group \"Elbow\" his voice and lyrics have helped the band win pretty much every music prize going ... headlining Glastonbury too, and playing at the closing ceremony of the London Olympics. Yet his image is that of an everyday, low key, unassuming bloke ... except that he isn't, he's penning and performing songs filled with intimacy, optimism and lyricism, that strike a chord with millions of fans.\n\nFor a long while his devotees were well versed in the art of delayed gratification - Elbow's debut album was released 11 years after the band members first made music together.\n\nHe writes his songs in his journal and has been keeping a diary since he was 14. Maybe it was the peace and calm of the blank page that first appealed - one of 7 kids he says he was brought up \"in a house full of women that were singing, shouting, arguing, fighting over the bathroom. I'm ruined by these women, spoilt rotten\"."
+            },
+            "image_url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p023r5tg.jpg",
+            "duration": { "value": 2700, "label": "45 mins" },
+            "progress": null,
+            "availability": {
+              "from": "2014-08-03T11:10:48Z",
+              "to": null,
+              "label": "Available for over a year"
+            },
+            "container": {
+              "type": "brand",
+              "id": "b006qnmr",
+              "urn": "urn:bbc:radio:brand:b006qnmr",
+              "title": "Desert Island Discs",
+              "synopses": {
+                "short": "Castaway guests share the soundtrack of their lives.",
+                "medium": "Eight tracks, a book and a luxury: what would you take to a desert island? Guests share the soundtrack of their lives.",
+                "long": null
+              },
+              "activities": [
+                { "type": "follow_activity", "action": "followed", "urn": null }
+              ]
+            },
+            "uris": [
+              {
+                "type": "latest",
+                "id": null,
+                "label": "Latest",
+                "uri": "/v2/my/programmes/playable?container=b006qnmr&sort=sequential&type=episode&experience=domestic"
+              }
+            ],
+            "activities": [],
+            "play_context": null,
+            "guidance": { "competition_warning": false, "warnings": null },
+            "recommendation": {
+              "algorithm": "xantus::recommended-for-you::3.8::personalised::sounds-xantus-homepage"
+            }
+          },
+          {
+            "id": "m001st7j",
+            "type": "playable_item",
+            "urn": "urn:bbc:radio:episode:m001st7l",
+            "network": {
+              "id": "bbc_6music",
+              "key": "6music",
+              "short_title": "Radio 6 Music",
+              "logo_url": "https://sounds.files.bbci.co.uk/3.5.0/networks/bbc_6music/{type}_{size}.{format}",
+              "network_type": "master_brand"
+            },
+            "release": {
+              "date": "2023-12-03T00:00:00Z",
+              "label": "03 Dec 2023"
+            },
+            "titles": {
+              "primary": "Iggy Pop",
+              "secondary": "Iggy welcomes Tom Waits to the Confidential Show",
+              "tertiary": null
+            },
+            "synopses": {
+              "short": "The Grammy Award-winning musician Tom Waits co-hosts a special show with Iggy Pop.",
+              "medium": "Echoing their famous joint appearance in Jim Jarmusch’s Coffee and Cigarettes, the show sees Iggy and Tom pump the Confidential jukebox full of nickels and dimes.",
+              "long": "Echoing their famous joint appearance in Jim Jarmusch’s Coffee and Cigarettes, the show sees Iggy and Tom pump the Confidential jukebox full of nickels and dimes.\n\nSongs include Bangkok by Alex Chilton, Moon River by Frank Ocean and Colorado Kool-Aid by Johnny Paycheck, as well as the first spoken word song Tom heard on the radio and a couple of 60s TV theme tunes to raise a smile."
+            },
+            "image_url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p0bw6zn5.jpg",
+            "duration": { "value": 7200, "label": "120 mins" },
+            "progress": null,
+            "availability": {
+              "from": "2023-12-03T18:00:00Z",
+              "to": "2024-01-02T18:00:00Z",
+              "label": "Available for 3 days"
+            },
+            "container": {
+              "type": "brand",
+              "id": "b03yblbx",
+              "urn": "urn:bbc:radio:brand:b03yblbx",
+              "title": "Iggy Pop",
+              "synopses": {
+                "short": "Iggy Pop returns to 6 Music with more eclectic and exciting music choices.",
+                "medium": "Iggy Pop, the 'godfather of punk', returns to 6 Music with more eclectic and exciting music choices, giving listeners an exclusive insight into his mind.",
+                "long": null
+              },
+              "activities": []
+            },
+            "uris": [
+              {
+                "type": "latest",
+                "id": null,
+                "label": "Latest",
+                "uri": "/v2/my/programmes/playable?container=b03yblbx&sort=sequential&type=episode&experience=domestic"
+              }
+            ],
+            "activities": [],
+            "play_context": null,
+            "guidance": { "competition_warning": false, "warnings": null },
+            "recommendation": {
+              "algorithm": "xantus::recommended-for-you::3.8::personalised::sounds-xantus-homepage"
+            }
+          },
+          {
+            "id": "p0gqczgw",
+            "type": "playable_item",
+            "urn": "urn:bbc:radio:episode:p0gqcxgr",
+            "network": {
+              "id": "bbc_radio_five_live",
+              "key": "5live",
+              "short_title": "Radio 5 Live",
+              "logo_url": "https://sounds.files.bbci.co.uk/3.5.0/networks/bbc_radio_five_live/{type}_{size}.{format}",
+              "network_type": "master_brand"
+            },
+            "release": {
+              "date": "2023-11-14T00:00:00Z",
+              "label": "14 Nov 2023"
+            },
+            "titles": {
+              "primary": "Good Bad Billionaire",
+              "secondary": "Denise Coates: Ultimate Gambler",
+              "tertiary": null
+            },
+            "synopses": {
+              "short": "How an accountant from Stoke gambled it all to become the world's highest paid woman.",
+              "medium": "How did an accountant from Stoke gamble it all to become the world's highest paid woman? Simon Jack and Zing Tsjeng judge an elusive billionaire who made her money on betting.",
+              "long": "How did an accountant from Stoke-on-Trent gamble it all to become the world's highest paid woman? Denise Coates founded online betting company Bet365 and soon became a billionaire. BBC business editor Simon Jack and journalist Zing Tsjeng trace the journey of this elusive figure. Geographically she's not travelled far, becoming the biggest employer in her hometown of Stoke-on-Trent. But as a businesswoman she's dominated the online gambling market globally, earning an annual salary that peaked at £421 million. In the podcast that uncovers how the world's wealthiest people made their money and asks if they are good or bad for the planet, Simon and Zing judge the woman who made billions from betting."
+            },
+            "image_url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p0g7xjvt.jpg",
+            "duration": { "value": 2772, "label": "46 mins" },
+            "progress": null,
+            "availability": {
+              "from": "2023-11-14T05:00:00Z",
+              "to": null,
+              "label": "Available for over a year"
+            },
+            "container": {
+              "type": "brand",
+              "id": "p0g7xj36",
+              "urn": "urn:bbc:radio:brand:p0g7xj36",
+              "title": "Good Bad Billionaire",
+              "synopses": {
+                "short": "Find out how billionaires got so rich: are they good, bad, or just another billionaire?",
+                "medium": "Simon Jack and Zing Tsjeng find out how the richest people on the planet made their billions, and then they judge them. Are they good, bad, or just another billionaire?",
+                "long": "Simon Jack and Zing Tsjeng find out how the richest people on the planet made their billions, and then they judge them. Are they good, bad, or just another billionaire?\n\nGood Bad Billionaire is here to lift the curtain on the minds, motives and money of some of the world's wealthiest individuals. Hosted by Simon Jack, Business Editor for BBC News, and journalist, author and podcaster Zing Tsjeng, this ground-breaking new series examines the rise of a different billionaire each week to answer the question: Are they good, bad, or just another billionaire?\n\nFrom Silicon Valley tech titans and secretive CEOS, to Wall Street moguls, pop stars and sporting legends, Simon and Zing will find out how these billionaires made their riches - from the very start to the very top. No detail is too small, no story too wild and no business deal too shady for them to uncover. How did Amazon boss Jeff Bezos launch one of the biggest corporations of the internet age? How did six-time NBA champion Michael Jordan make a fortune from product endorsements with sports giant Nike? How did Rihanna come to sign with Jay-Z and to found a beauty product empire? And how did Chuck Feeney earn the title of 'the James Bond of philanthropy'?\n\nWith episodes examining Oprah Winfrey, Bill Gates, George Lucas and Kim Kardashian, these stories paint a vivid picture of business, entrepreneurship, capitalism and how our world really works.\n\nBut it's not just about how these billionaires made their money; it's about what they did with it next. Simon and Zing put each on trial to find out: is this billionaire a force for good or an agent of chaos? Or perhaps somewhere in between.... Join our hosts each week as they unravel tales of fortune, power, ambition and moral responsibility, and invite you to weigh in on the verdict: Good, Bad, or Just Another Billionaire?"
+              },
+              "activities": [
+                { "type": "follow_activity", "action": "followed", "urn": null }
+              ]
+            },
+            "uris": [
+              {
+                "type": "latest",
+                "id": null,
+                "label": "Latest",
+                "uri": "/v2/my/programmes/playable?container=p0g7xj36&sort=sequential&type=episode&experience=domestic"
+              }
+            ],
+            "activities": [],
+            "play_context": null,
+            "guidance": { "competition_warning": false, "warnings": null },
+            "recommendation": {
+              "algorithm": "xantus::recommended-for-you::3.8::personalised::sounds-xantus-homepage"
+            }
+          },
+          {
+            "id": "m001sb5t",
+            "type": "playable_item",
+            "urn": "urn:bbc:radio:episode:m001sb5w",
+            "network": {
+              "id": "bbc_radio_one",
+              "key": "radio1",
+              "short_title": "Radio 1",
+              "logo_url": "https://sounds.files.bbci.co.uk/3.5.0/networks/bbc_radio_one/{type}_{size}.{format}",
+              "network_type": "master_brand"
+            },
+            "release": {
+              "date": "2023-11-25T00:00:00Z",
+              "label": "25 Nov 2023"
+            },
+            "titles": {
+              "primary": "Danny Howard's Club Mix",
+              "secondary": "Azzecca, Archie Hamilton, Hot Since 82 & more!",
+              "tertiary": null
+            },
+            "synopses": {
+              "short": "Danny's opening up the club once more with 60 minutes of big floor-fillers in the mix!",
+              "medium": "Danny's opening up the club once more with 60 minutes of big floor-fillers in the mix!",
+              "long": null
+            },
+            "image_url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p0grpq7p.jpg",
+            "duration": { "value": 3600, "label": "60 mins" },
+            "progress": null,
+            "availability": {
+              "from": "2023-11-25T04:00:00Z",
+              "to": "2024-01-17T00:00:00Z",
+              "label": "Available for 17 days"
+            },
+            "container": {
+              "type": "brand",
+              "id": "m0002nly",
+              "urn": "urn:bbc:radio:brand:m0002nly",
+              "title": "Danny Howard's Club Mix",
+              "synopses": {
+                "short": "Danny goes in with a big club mix...",
+                "medium": "Danny goes in with a big club mix...",
+                "long": null
+              },
+              "activities": []
+            },
+            "uris": [
+              {
+                "type": "latest",
+                "id": null,
+                "label": "Latest",
+                "uri": "/v2/my/programmes/playable?container=m0002nly&sort=sequential&type=episode&experience=domestic"
+              }
+            ],
+            "activities": [],
+            "play_context": null,
+            "guidance": { "competition_warning": false, "warnings": null },
+            "recommendation": {
+              "algorithm": "xantus::recommended-for-you::3.8::personalised::sounds-xantus-homepage"
+            }
+          }
+        ],
+        "state": "ok",
+        "style": null,
+        "uris": null,
+        "total": 12
+      }
+    ]
+  },
+  "locales": { "cy": "Cymraeg", "ga": "Gaeilge", "gd": "Gàidhlig" },
+  "footerLinks": {
+    "https://bbc.co.uk/sounds/help": "BBC Sounds Help",
+    "https://www.bbc.co.uk/programmes/articles/0c6dcea5-420b-4caf-b3b9-e97b605a50fd": "Contacts, Privacy and Information",
+    "https://www.bbc.co.uk/usingthebbc/account/": "Help with Signing In",
+    "https://www.bbc.co.uk/newsletters/email/zbdmwty": "Newsletter"
+  },
+  "idCta": null,
+  "userSettings": {
+    "isPersonalisationEnabled": true,
+    "isPerformanceCookieOn": true,
+    "isUnder16": false,
+    "isSignedIn": true,
+    "isFunctionalityCookieOn": true,
+    "isInUk": true
+  },
+  "appConfig": {
+    "baseUrl": "https://rms.api.bbc.co.uk",
+    "clientApiKey": "3A5LU4tQWvWW3lpgF5OT4IWUoyLaju9z",
+    "personalisedActivitiesUriSegment": "/v2/my/activities",
+    "subscribeDelay": 1000,
+    "dials": {
+      "is16x9CategoryCardEnabled": true,
+      "isMusicMixesEnabled": true,
+      "isAnalyticsEnabled": true,
+      "isOptimizelyEnabled": true,
+      "isSubscribeButtonEnabled": true,
+      "isPromoModalEnabled": true,
+      "areIdServicesEnabled": true,
+      "hasSurveyBanner": false,
+      "isWebPEnabled": true,
+      "msiExperimentOverride": "text_only",
+      "smpSignInExperimentOverride": "default",
+      "isCommercialLinksEnabled": true,
+      "isTracksPollingEnabled": true,
+      "isTracklistPlayingEnabled": true,
+      "isLiveExperienceApiEnabled": false,
+      "isJwtOnLivePlaybackEnabled": true,
+      "isChaptersDialEnabled": false
+    },
+    "pageTitle": "",
+    "experimentationClientUrl": "https://static.files.bbci.co.uk/sounds/web/sounds-web/js/tvr-experimentation-client.1632238eed",
+    "bumpUrl": "https://emp.bbci.co.uk/emp/bump-4/bump-4",
+    "msiUrl": "//rmp.files.bbci.co.uk/radio-msi/latest",
+    "clientSideTelemetryOptions": {
+      "url": "https://telemetry.api.bbci.co.uk/tvr-telemetry/sounds-web/telemetry",
+      "sampleRate": 25,
+      "service": "sounds-web",
+      "pageType": "play-aod-pid"
+    },
+    "isPlayout": true,
+    "playbackIdentifier": "m001tk6k",
+    "pageType": "aod",
+    "aodPageType": "aod-singlePid",
+    "aodHeartbeatInterval": 30000,
+    "isSelectedSegmentsEnabled": false,
+    "isMobile": false
+  },
+  "soundsNav": { "contentType": "player-episode" },
+  "experimentation": { "activeRetentionMetrics": [] },
+  "bookmark": {
+    "isBookmarksEnabled": true,
+    "isBookmarkStatusUpdating": false,
+    "bookmarkDelay": 1000
+  },
+  "subscribe": {
+    "isSubscribeEnabled": true,
+    "isSubscribeStatusUpdating": false,
+    "subscribeDelay": 1000
+  },
+  "smp": {
+    "isSplashScreenEnabled": true,
+    "isSplashScreenRunning": true,
+    "live": false,
+    "writePlaysData": true,
+    "jwtFetchWasRetried": false,
+    "chaptersSmpPluginUrl": "https://static.files.bbci.co.uk/sounds/web/sounds-web/js/sounds-segments.83ed74f3a6.js"
+  },
+  "msiModal": { "open": false, "shouldShowOnPlayback": false },
+  "locale": "en",
+  "pageType": "play",
+  "programmes": {
+    "current": {
+      "id": "m001tk6j",
+      "type": "playable_item",
+      "urn": "urn:bbc:radio:episode:m001tk6k",
+      "network": {
+        "id": "bbc_6music",
+        "key": "6music",
+        "short_title": "Radio 6 Music",
+        "logo_url": "https://sounds.files.bbci.co.uk/3.5.0/networks/bbc_6music/{type}_{size}.{format}",
+        "network_type": "master_brand"
+      },
+      "release": { "date": "2023-12-29T00:00:00Z", "label": "29 Dec 2023" },
+      "titles": {
+        "primary": "Craig Charles",
+        "secondary": "29/12/2023",
+        "tertiary": null
+      },
+      "synopses": {
+        "short": "End your week in style with Craig's uplifting mix of music and fun.",
+        "medium": "End your week in style with Craig's uplifting mix of music and fun.",
+        "long": null
+      },
+      "image_url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p0bw64pz.jpg",
+      "duration": { "value": 10800, "label": "180 mins" },
+      "progress": { "value": 8650, "label": "35 mins left" },
+      "availability": {
+        "from": "2023-12-29T16:00:00Z",
+        "to": "2024-01-28T16:00:00Z",
+        "label": "Available for 29 days"
+      },
+      "container": {
+        "type": "brand",
+        "id": "m000h9wt",
+        "urn": "urn:bbc:radio:brand:m000h9wt",
+        "title": "Craig Charles",
+        "synopses": {
+          "short": "The afternoon party that everyone's invited to.",
+          "medium": "The afternoon party that everyone's invited to.",
+          "long": null
+        },
+        "activities": [
+          { "type": "follow_activity", "action": "followed", "urn": null }
+        ]
+      },
+      "uris": [
+        {
+          "type": "latest",
+          "id": null,
+          "label": "Latest",
+          "uri": "/v2/my/programmes/playable?container=m000h9wt&sort=sequential&type=episode&experience=domestic"
+        }
+      ],
+      "activities": [
+        { "type": "play_activity", "action": "heartbeat", "label": null }
+      ],
+      "play_context": null,
+      "guidance": { "competition_warning": false, "warnings": null },
+      "recommendation": null
+    },
+    "playQueuePlayCount": 0,
+    "isPlayQueueEnded": false
+  },
+  "tracklist": {
+    "tracks": [
+      {
+        "id": "p0h22bvm",
+        "type": "segment_item",
+        "titles": {
+          "primary": "Utah Saints",
+          "secondary": "What Can You Do For Me",
+          "tertiary": null
+        },
+        "image_url": null,
+        "offset": {
+          "start": 5,
+          "end": 224,
+          "label": null,
+          "now_playing": false
+        },
+        "synopses": null,
+        "uris": [
+          {
+            "type": "commercial-music-service",
+            "id": "commercial-music-service-spotify",
+            "label": "Spotify",
+            "uri": "https://open.spotify.com/track/7s4TZQlMPXxXVGCIuu5crd"
+          },
+          {
+            "type": "commercial-music-service",
+            "id": "commercial-music-service-apple",
+            "label": "Apple Music",
+            "uri": "https://music.apple.com/gb/album/what-can-you-do-for-me-radio-edit/1668476967?i=1668476976"
+          }
+        ]
+      },
+      {
+        "id": "p0h22cbd",
+        "type": "segment_item",
+        "titles": {
+          "primary": "Jalen Ngonda",
+          "secondary": "Rapture",
+          "tertiary": null
+        },
+        "image_url": null,
+        "offset": {
+          "start": 216,
+          "end": 363,
+          "label": null,
+          "now_playing": false
+        },
+        "synopses": null,
+        "uris": [
+          {
+            "type": "commercial-music-service",
+            "id": "commercial-music-service-spotify",
+            "label": "Spotify",
+            "uri": "https://open.spotify.com/track/3osAKU8N7haVZCfmvVC9gr"
+          },
+          {
+            "type": "commercial-music-service",
+            "id": "commercial-music-service-apple",
+            "label": "Apple Music",
+            "uri": "https://music.apple.com/gb/album/rapture/1675144720?i=1675144914"
+          }
+        ]
+      },
+      {
+        "id": "p0h22df2",
+        "type": "segment_item",
+        "titles": {
+          "primary": "Angie Stone",
+          "secondary": "Wish I Didn't Miss You",
+          "tertiary": null
+        },
+        "image_url": null,
+        "offset": {
+          "start": 415,
+          "end": 653,
+          "label": null,
+          "now_playing": false
+        },
+        "synopses": null,
+        "uris": [
+          {
+            "type": "commercial-music-service",
+            "id": "commercial-music-service-spotify",
+            "label": "Spotify",
+            "uri": "https://open.spotify.com/track/3tZm76otWH20xzJC7icHCk"
+          },
+          {
+            "type": "commercial-music-service",
+            "id": "commercial-music-service-apple",
+            "label": "Apple Music",
+            "uri": "https://music.apple.com/gb/album/wish-i-didnt-miss-you-radio-edit/795614222?i=795614296"
+          }
+        ]
+      },
+      {
+        "id": "p0h22f17",
+        "type": "segment_item",
+        "titles": {
+          "primary": "The Flaming Lips",
+          "secondary": "Do You Realize??",
+          "tertiary": null
+        },
+        "image_url": null,
+        "offset": {
+          "start": 657,
+          "end": 866,
+          "label": null,
+          "now_playing": false
+        },
+        "synopses": null,
+        "uris": [
+          {
+            "type": "commercial-music-service",
+            "id": "commercial-music-service-spotify",
+            "label": "Spotify",
+            "uri": "https://open.spotify.com/track/2DFRFqWNahKtFD112H2iEZ"
+          },
+          {
+            "type": "commercial-music-service",
+            "id": "commercial-music-service-apple",
+            "label": "Apple Music",
+            "uri": "https://music.apple.com/gb/album/do-you-realize/465555618?i=465555701"
+          }
+        ]
+      },
+      {
+        "id": "p0h22f91",
+        "type": "segment_item",
+        "titles": {
+          "primary": "Black Rebel Motorcycle Club",
+          "secondary": "Spread Your Love",
+          "tertiary": null
+        },
+        "image_url": null,
+        "offset": {
+          "start": 861,
+          "end": 1081,
+          "label": null,
+          "now_playing": false
+        },
+        "synopses": null,
+        "uris": [
+          {
+            "type": "commercial-music-service",
+            "id": "commercial-music-service-spotify",
+            "label": "Spotify",
+            "uri": "https://open.spotify.com/track/4mpAm83XX1iS63l8wmkEC6"
+          },
+          {
+            "type": "commercial-music-service",
+            "id": "commercial-music-service-apple",
+            "label": "Apple Music",
+            "uri": "https://music.apple.com/gb/album/spread-your-love/724976995?i=724977191"
+          }
+        ]
+      },
+      {
+        "id": "p0h22g83",
+        "type": "segment_item",
+        "titles": {
+          "primary": "Kaeto",
+          "secondary": "No Body",
+          "tertiary": null
+        },
+        "image_url": null,
+        "offset": {
+          "start": 1345,
+          "end": 1504,
+          "label": null,
+          "now_playing": false
+        },
+        "synopses": null,
+        "uris": [
+          {
+            "type": "commercial-music-service",
+            "id": "commercial-music-service-spotify",
+            "label": "Spotify",
+            "uri": "https://open.spotify.com/track/4BdA7ZtP00Dda9UWiSAn2F"
+          },
+          {
+            "type": "commercial-music-service",
+            "id": "commercial-music-service-apple",
+            "label": "Apple Music",
+            "uri": "https://music.apple.com/gb/album/no-body/1707476056?i=1707476057"
+          }
+        ]
+      },
+      {
+        "id": "p0h22gk0",
+        "type": "segment_item",
+        "titles": {
+          "primary": "Christine and the Queens",
+          "secondary": "I Disappear In Your Arms",
+          "tertiary": null
+        },
+        "image_url": null,
+        "offset": {
+          "start": 1500,
+          "end": 1732,
+          "label": null,
+          "now_playing": false
+        },
+        "synopses": null,
+        "uris": [
+          {
+            "type": "commercial-music-service",
+            "id": "commercial-music-service-spotify",
+            "label": "Spotify",
+            "uri": "https://open.spotify.com/track/5Z6hPYs0yG1lZrQ2SbD4bM"
+          },
+          {
+            "type": "commercial-music-service",
+            "id": "commercial-music-service-apple",
+            "label": "Apple Music",
+            "uri": "https://music.apple.com/gb/album/i-disappear-in-your-arms/1553306726?i=1553307366"
+          }
+        ]
+      },
+      {
+        "id": "p0h22htw",
+        "type": "segment_item",
+        "titles": {
+          "primary": "Bhundu Boys",
+          "secondary": "Jit Jive",
+          "tertiary": null
+        },
+        "image_url": null,
+        "offset": {
+          "start": 2022,
+          "end": 2250,
+          "label": null,
+          "now_playing": false
+        },
+        "synopses": null,
+        "uris": [
+          {
+            "type": "commercial-music-service",
+            "id": "commercial-music-service-spotify",
+            "label": "Spotify",
+            "uri": "https://open.spotify.com/track/5EGBrGm3P5RPDIlbqfAIvX"
+          },
+          {
+            "type": "commercial-music-service",
+            "id": "commercial-music-service-apple",
+            "label": "Apple Music",
+            "uri": "https://music.apple.com/gb/album/jit-jive/1297508901?i=1297509768"
+          }
+        ]
+      },
+      {
+        "id": "p0h22k0s",
+        "type": "segment_item",
+        "titles": {
+          "primary": "KAYTRANADA",
+          "secondary": "Lover/Friend (feat. Rochelle Jordan)",
+          "tertiary": null
+        },
+        "image_url": null,
+        "offset": {
+          "start": 2246,
+          "end": 2449,
+          "label": null,
+          "now_playing": false
+        },
+        "synopses": null,
+        "uris": [
+          {
+            "type": "commercial-music-service",
+            "id": "commercial-music-service-spotify",
+            "label": "Spotify",
+            "uri": "https://open.spotify.com/track/5ahq8vkzMznGmfN2EVOukP"
+          },
+          {
+            "type": "commercial-music-service",
+            "id": "commercial-music-service-apple",
+            "label": "Apple Music",
+            "uri": "https://music.apple.com/gb/album/lover-friend/1716982230?i=1716982232"
+          }
+        ]
+      },
+      {
+        "id": "p0h22lbp",
+        "type": "segment_item",
+        "titles": {
+          "primary": "Billy Nomates",
+          "secondary": "Black Curtains In The Bag (6 Music session, 20th April 2023)",
+          "tertiary": null
+        },
+        "image_url": null,
+        "offset": {
+          "start": 2609,
+          "end": 2815,
+          "label": null,
+          "now_playing": false
+        },
+        "synopses": null,
+        "uris": [
+          {
+            "type": "commercial-music-service",
+            "id": "commercial-music-service-apple",
+            "label": "Apple Music",
+            "uri": "https://music.apple.com/gb/album/black-curtains-in-the-bag/1640021389?i=1640021402"
+          }
+        ]
+      },
+      {
+        "id": "p0h22lyn",
+        "type": "segment_item",
+        "titles": {
+          "primary": "Dream Wife",
+          "secondary": "Hey Heartbreaker",
+          "tertiary": null
+        },
+        "image_url": null,
+        "offset": {
+          "start": 2901,
+          "end": 3099,
+          "label": null,
+          "now_playing": false
+        },
+        "synopses": null,
+        "uris": [
+          {
+            "type": "commercial-music-service",
+            "id": "commercial-music-service-spotify",
+            "label": "Spotify",
+            "uri": "https://open.spotify.com/track/7rSKClwEWhLnNAEASAYRXE"
+          },
+          {
+            "type": "commercial-music-service",
+            "id": "commercial-music-service-apple",
+            "label": "Apple Music",
+            "uri": "https://music.apple.com/gb/album/hey-heartbreaker/1295081132?i=1295081615"
+          }
+        ]
+      },
+      {
+        "id": "p0h22m7c",
+        "type": "segment_item",
+        "titles": {
+          "primary": "Heartworms",
+          "secondary": "May I Comply",
+          "tertiary": null
+        },
+        "image_url": null,
+        "offset": {
+          "start": 3102,
+          "end": 3275,
+          "label": null,
+          "now_playing": false
+        },
+        "synopses": null,
+        "uris": [
+          {
+            "type": "commercial-music-service",
+            "id": "commercial-music-service-spotify",
+            "label": "Spotify",
+            "uri": "https://open.spotify.com/track/7BCv8kdJnH5NSUL8d4kzh5"
+          },
+          {
+            "type": "commercial-music-service",
+            "id": "commercial-music-service-apple",
+            "label": "Apple Music",
+            "uri": "https://music.apple.com/gb/album/may-i-comply/1708416171?i=1708416238"
+          }
+        ]
+      },
+      {
+        "id": "p0h22mtf",
+        "type": "segment_item",
+        "titles": {
+          "primary": "Pigs Pigs Pigs Pigs Pigs Pigs Pigs",
+          "secondary": "Mr Medicine (6Music Session 21st February 2023)",
+          "tertiary": null
+        },
+        "image_url": null,
+        "offset": {
+          "start": 3439,
+          "end": 3577,
+          "label": null,
+          "now_playing": false
+        },
+        "synopses": null,
+        "uris": []
+      },
+      {
+        "id": "p0h22n1v",
+        "type": "segment_item",
+        "titles": {
+          "primary": "Cream",
+          "secondary": "Crossroads",
+          "tertiary": null
+        },
+        "image_url": null,
+        "offset": {
+          "start": 3617,
+          "end": 3868,
+          "label": null,
+          "now_playing": false
+        },
+        "synopses": null,
+        "uris": [
+          {
+            "type": "commercial-music-service",
+            "id": "commercial-music-service-spotify",
+            "label": "Spotify",
+            "uri": "https://open.spotify.com/track/6PUabSMXmPnZna361Wwmf7"
+          },
+          {
+            "type": "commercial-music-service",
+            "id": "commercial-music-service-apple",
+            "label": "Apple Music",
+            "uri": "https://music.apple.com/gb/album/crossroads-live/1440830708?i=1440831035"
+          }
+        ]
+      },
+      {
+        "id": "p0h22nrl",
+        "type": "segment_item",
+        "titles": {
+          "primary": "The Staves",
+          "secondary": "All Now",
+          "tertiary": null
+        },
+        "image_url": null,
+        "offset": {
+          "start": 3861,
+          "end": 4096,
+          "label": null,
+          "now_playing": false
+        },
+        "synopses": null,
+        "uris": [
+          {
+            "type": "commercial-music-service",
+            "id": "commercial-music-service-spotify",
+            "label": "Spotify",
+            "uri": "https://open.spotify.com/track/7gEQuszu1NiKweV7zOTFr6"
+          },
+          {
+            "type": "commercial-music-service",
+            "id": "commercial-music-service-apple",
+            "label": "Apple Music",
+            "uri": "https://music.apple.com/gb/album/all-now/1711410930?i=1711410940"
+          }
+        ]
+      },
+      {
+        "id": "p0h22rmc",
+        "type": "segment_item",
+        "titles": {
+          "primary": "Killer Mike",
+          "secondary": "Run (6 Music Session, 9th November 2023)",
+          "tertiary": null
+        },
+        "image_url": null,
+        "offset": {
+          "start": 4468,
+          "end": 4659,
+          "label": null,
+          "now_playing": false
+        },
+        "synopses": null,
+        "uris": [
+          {
+            "type": "commercial-music-service",
+            "id": "commercial-music-service-apple",
+            "label": "Apple Music",
+            "uri": "https://music.apple.com/gb/album/kryptonite/712356411?i=712356758"
+          }
+        ]
+      },
+      {
+        "id": "p0h22sf2",
+        "type": "segment_item",
+        "titles": {
+          "primary": "Mount Kimbie",
+          "secondary": "Dumb Guitar",
+          "tertiary": null
+        },
+        "image_url": null,
+        "offset": {
+          "start": 4740,
+          "end": 4973,
+          "label": null,
+          "now_playing": false
+        },
+        "synopses": null,
+        "uris": [
+          {
+            "type": "commercial-music-service",
+            "id": "commercial-music-service-spotify",
+            "label": "Spotify",
+            "uri": "https://open.spotify.com/track/50UWt4jx8Y1t8EoV0ODKDL"
+          },
+          {
+            "type": "commercial-music-service",
+            "id": "commercial-music-service-apple",
+            "label": "Apple Music",
+            "uri": "https://music.apple.com/gb/album/dumb-guitar/1710129728?i=1710129729"
+          }
+        ]
+      },
+      {
+        "id": "p0h22t5k",
+        "type": "segment_item",
+        "titles": {
+          "primary": "St Germain",
+          "secondary": "Rose Rouge",
+          "tertiary": null
+        },
+        "image_url": null,
+        "offset": {
+          "start": 5105,
+          "end": 5395,
+          "label": null,
+          "now_playing": false
+        },
+        "synopses": null,
+        "uris": [
+          {
+            "type": "commercial-music-service",
+            "id": "commercial-music-service-spotify",
+            "label": "Spotify",
+            "uri": "https://open.spotify.com/track/1divptdjcWXvF1aflfTQnw"
+          },
+          {
+            "type": "commercial-music-service",
+            "id": "commercial-music-service-apple",
+            "label": "Apple Music",
+            "uri": "https://music.apple.com/gb/album/rose-rouge/717406560?i=717406613"
+          }
+        ]
+      },
+      {
+        "id": "p0h22thh",
+        "type": "segment_item",
+        "titles": {
+          "primary": "Awesome 3",
+          "secondary": "Don't Go (Kicks Like A Mule Mix) (feat. Kicks Like a Mule)",
+          "tertiary": null
+        },
+        "image_url": null,
+        "offset": {
+          "start": 5576,
+          "end": 5793,
+          "label": null,
+          "now_playing": false
+        },
+        "synopses": null,
+        "uris": [
+          {
+            "type": "commercial-music-service",
+            "id": "commercial-music-service-spotify",
+            "label": "Spotify",
+            "uri": "https://open.spotify.com/track/6kfBFZkYNCtlqntnLFaei4"
+          },
+          {
+            "type": "commercial-music-service",
+            "id": "commercial-music-service-apple",
+            "label": "Apple Music",
+            "uri": "https://music.apple.com/gb/album/dont-go-kicks-like-a-mule-mix/311189910?i=311189942"
+          }
+        ]
+      },
+      {
+        "id": "p0h22ts0",
+        "type": "segment_item",
+        "titles": {
+          "primary": "KNEECAP",
+          "secondary": "Better Way To Live (feat. Grian Chatten)",
+          "tertiary": null
+        },
+        "image_url": null,
+        "offset": {
+          "start": 5792,
+          "end": 5969,
+          "label": null,
+          "now_playing": false
+        },
+        "synopses": null,
+        "uris": [
+          {
+            "type": "commercial-music-service",
+            "id": "commercial-music-service-apple",
+            "label": "Apple Music",
+            "uri": "https://music.apple.com/gb/album/better-way-to-live-feat-grian-chatten/1711573516?i=1711573524"
+          }
+        ]
+      },
+      {
+        "id": "p0h22v0h",
+        "type": "segment_item",
+        "titles": {
+          "primary": "Mike Garry and The Cassio String Quartet",
+          "secondary": "Tonight",
+          "tertiary": null
+        },
+        "image_url": null,
+        "offset": {
+          "start": 6025,
+          "end": 6248,
+          "label": null,
+          "now_playing": false
+        },
+        "synopses": null,
+        "uris": []
+      },
+      {
+        "id": "p0h22w3w",
+        "type": "segment_item",
+        "titles": {
+          "primary": "Marika Hackman",
+          "secondary": "Slime",
+          "tertiary": null
+        },
+        "image_url": null,
+        "offset": {
+          "start": 6630,
+          "end": 6861,
+          "label": null,
+          "now_playing": false
+        },
+        "synopses": null,
+        "uris": [
+          {
+            "type": "commercial-music-service",
+            "id": "commercial-music-service-spotify",
+            "label": "Spotify",
+            "uri": "https://open.spotify.com/track/3jWZUXWXIWDsXVwrkwjOhS"
+          },
+          {
+            "type": "commercial-music-service",
+            "id": "commercial-music-service-apple",
+            "label": "Apple Music",
+            "uri": "https://music.apple.com/gb/album/slime/1699834667?i=1699835633"
+          }
+        ]
+      },
+      {
+        "id": "p0h22xlc",
+        "type": "segment_item",
+        "titles": {
+          "primary": "The Big Moon",
+          "secondary": "2 Lines (6 Music Session, 12 Dec 2023)",
+          "tertiary": null
+        },
+        "image_url": null,
+        "offset": {
+          "start": 7494,
+          "end": 7757,
+          "label": null,
+          "now_playing": false
+        },
+        "synopses": null,
+        "uris": []
+      },
+      {
+        "id": "p0h22yj8",
+        "type": "segment_item",
+        "titles": {
+          "primary": "Romy",
+          "secondary": "Enjoy Your Life",
+          "tertiary": null
+        },
+        "image_url": null,
+        "offset": {
+          "start": 7802,
+          "end": 8007,
+          "label": null,
+          "now_playing": false
+        },
+        "synopses": null,
+        "uris": [
+          {
+            "type": "commercial-music-service",
+            "id": "commercial-music-service-spotify",
+            "label": "Spotify",
+            "uri": "https://open.spotify.com/track/0yM2YvOGR3cBIoWBeFdtmS"
+          },
+          {
+            "type": "commercial-music-service",
+            "id": "commercial-music-service-apple",
+            "label": "Apple Music",
+            "uri": "https://music.apple.com/gb/album/enjoy-your-life/1677590070?i=1677590074"
+          }
+        ]
+      },
+      {
+        "id": "p0h22zby",
+        "type": "segment_item",
+        "titles": {
+          "primary": "The Temptations",
+          "secondary": "Ball of Confusion (That's What the World is Today)",
+          "tertiary": null
+        },
+        "image_url": null,
+        "offset": {
+          "start": 8006,
+          "end": 8245,
+          "label": null,
+          "now_playing": false
+        },
+        "synopses": null,
+        "uris": [
+          {
+            "type": "commercial-music-service",
+            "id": "commercial-music-service-spotify",
+            "label": "Spotify",
+            "uri": "https://open.spotify.com/track/0WVjFHFO7Wsqc6qArMNxmS"
+          },
+          {
+            "type": "commercial-music-service",
+            "id": "commercial-music-service-apple",
+            "label": "Apple Music",
+            "uri": "https://music.apple.com/gb/album/ball-of-confusion-thats-what-the-world-is-today/1471563127?i=1471564309"
+          }
+        ]
+      },
+      {
+        "id": "p0h232t3",
+        "type": "segment_item",
+        "titles": {
+          "primary": "The Jesus and Mary Chain",
+          "secondary": "jamcod",
+          "tertiary": null
+        },
+        "image_url": null,
+        "offset": {
+          "start": 8771,
+          "end": 8986,
+          "label": null,
+          "now_playing": false
+        },
+        "synopses": null,
+        "uris": [
+          {
+            "type": "commercial-music-service",
+            "id": "commercial-music-service-spotify",
+            "label": "Spotify",
+            "uri": "https://open.spotify.com/track/1DBRdzUgZrX7WBygQD2GhR"
+          },
+          {
+            "type": "commercial-music-service",
+            "id": "commercial-music-service-apple",
+            "label": "Apple Music",
+            "uri": "https://music.apple.com/gb/album/jamcod/1718603729?i=1718604333"
+          }
+        ]
+      },
+      {
+        "id": "p0h233st",
+        "type": "segment_item",
+        "titles": {
+          "primary": "Mos Def",
+          "secondary": "Quiet Dog",
+          "tertiary": null
+        },
+        "image_url": null,
+        "offset": {
+          "start": 9195,
+          "end": 9351,
+          "label": null,
+          "now_playing": false
+        },
+        "synopses": null,
+        "uris": [
+          {
+            "type": "commercial-music-service",
+            "id": "commercial-music-service-apple",
+            "label": "Apple Music",
+            "uri": "https://music.apple.com/gb/album/quiet-dog/396406332?i=396406407"
+          }
+        ]
+      },
+      {
+        "id": "p0h234dz",
+        "type": "segment_item",
+        "titles": {
+          "primary": "Biig Piig",
+          "secondary": "Watch Me",
+          "tertiary": null
+        },
+        "image_url": null,
+        "offset": {
+          "start": 9352,
+          "end": 9549,
+          "label": null,
+          "now_playing": false
+        },
+        "synopses": null,
+        "uris": [
+          {
+            "type": "commercial-music-service",
+            "id": "commercial-music-service-spotify",
+            "label": "Spotify",
+            "uri": "https://open.spotify.com/track/3Zu4WIeXp4NbQZbcqv1MOr"
+          },
+          {
+            "type": "commercial-music-service",
+            "id": "commercial-music-service-apple",
+            "label": "Apple Music",
+            "uri": "https://music.apple.com/gb/album/watch-me/1712658514?i=1712658516"
+          }
+        ]
+      },
+      {
+        "id": "p0h234p7",
+        "type": "segment_item",
+        "titles": {
+          "primary": "Sweeping Promises",
+          "secondary": "Eraser",
+          "tertiary": null
+        },
+        "image_url": null,
+        "offset": {
+          "start": 9650,
+          "end": 9813,
+          "label": null,
+          "now_playing": false
+        },
+        "synopses": null,
+        "uris": [
+          {
+            "type": "commercial-music-service",
+            "id": "commercial-music-service-spotify",
+            "label": "Spotify",
+            "uri": "https://open.spotify.com/track/1wJQVdyq6VtUL5o7yVS5W0"
+          },
+          {
+            "type": "commercial-music-service",
+            "id": "commercial-music-service-apple",
+            "label": "Apple Music",
+            "uri": "https://music.apple.com/gb/album/eraser/1680263002?i=1680263006"
+          }
+        ]
+      },
+      {
+        "id": "p0h23574",
+        "type": "segment_item",
+        "titles": {
+          "primary": "Bob Vylan",
+          "secondary": "Dream Big",
+          "tertiary": null
+        },
+        "image_url": null,
+        "offset": {
+          "start": 9937,
+          "end": 10120,
+          "label": null,
+          "now_playing": false
+        },
+        "synopses": null,
+        "uris": [
+          {
+            "type": "commercial-music-service",
+            "id": "commercial-music-service-spotify",
+            "label": "Spotify",
+            "uri": "https://open.spotify.com/track/0xvXVHHSdl0EjXFobmL6Ip"
+          },
+          {
+            "type": "commercial-music-service",
+            "id": "commercial-music-service-apple",
+            "label": "Apple Music",
+            "uri": "https://music.apple.com/gb/album/dream-big/1693889146?i=1693889147"
+          }
+        ]
+      },
+      {
+        "id": "p0h2364b",
+        "type": "segment_item",
+        "titles": {
+          "primary": "Les Amazones d’Afrique",
+          "secondary": "Kuma Fo (What They Say)",
+          "tertiary": null
+        },
+        "image_url": null,
+        "offset": {
+          "start": 10148,
+          "end": 10361,
+          "label": null,
+          "now_playing": false
+        },
+        "synopses": null,
+        "uris": [
+          {
+            "type": "commercial-music-service",
+            "id": "commercial-music-service-spotify",
+            "label": "Spotify",
+            "uri": "https://open.spotify.com/track/3GWfxdvIdt6lv2PQ6IbozZ"
+          },
+          {
+            "type": "commercial-music-service",
+            "id": "commercial-music-service-apple",
+            "label": "Apple Music",
+            "uri": "https://music.apple.com/gb/album/kuma-fo-what-they-say/1711264869?i=1711266017"
+          }
+        ]
+      }
+    ]
+  }
+}

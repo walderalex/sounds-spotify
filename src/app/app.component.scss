@@ -1,0 +1,14 @@
+:host {
+  height: 100%;
+
+  .content {
+    min-height: 100%;
+  }
+
+  .avatar {
+    height: 38px;
+    width: 38px;
+    border-radius: 99999px;
+    border: 1px solid white;
+  }
+}

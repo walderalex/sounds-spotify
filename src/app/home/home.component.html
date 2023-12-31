@@ -1,0 +1,36 @@
+<p>
+  Enter the URL of the BBC Sounds music programme you would like to convert to a
+  Spotify playlist.
+</p>
+
+<form (submit)="getTracks()">
+  <div class="input">
+    <mat-form-field style="width: 400px; max-width: 100vw">
+      <mat-label>Programme URL</mat-label>
+      <input
+        placeholder="Enter programme URL"
+        type="text"
+        matInput
+        name="progUrl"
+        [(ngModel)]="progUrl"
+      />
+    </mat-form-field>
+    <button mat-flat-button color="primary" type="submit">
+      Get tracks
+      <mat-icon>arrow_forward</mat-icon>
+    </button>
+  </div>
+</form>
+<div *ngIf="!progInfo">
+  <h3>Recent searches</h3>
+  <mat-action-list>
+    <button
+      mat-list-item
+      *ngFor="let recent of recents"
+      (click)="setProgInfo(recent.data)"
+    >
+      {{ recent.label }}
+    </button>
+  </mat-action-list>
+</div>
+<app-programme *ngIf="progInfo" [programme]="progInfo"></app-programme>

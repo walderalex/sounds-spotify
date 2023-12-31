@@ -1,0 +1,28 @@
+<div class="prog" *ngIf="programme">
+  <img
+    [src]="programme.info.image_url.replace('{recipe}', '320x320')"
+    [alt]="programme.info.container.title"
+    height="210"
+    width="210"
+  />
+  <div class="title">
+    <small>{{ programme.info.release.label }}</small>
+    <h2>{{ programme.info.container.title }}</h2>
+    <p>{{ programme.info.synopses.medium }}</p>
+  </div>
+  <div class="track-container">
+    <div class="tracks">
+      <app-track
+        *ngFor="let track of programme.tracks; let i = index"
+        [track]="track"
+        [index]="i + 1"
+      />
+    </div>
+  </div>
+  <div class="actions">
+    <button mat-flat-button (click)="openInSounds()">Open in Sounds</button>
+    <button mat-flat-button color="primary" (click)="createPlaylist()">
+      Create playlist
+    </button>
+  </div>
+</div>

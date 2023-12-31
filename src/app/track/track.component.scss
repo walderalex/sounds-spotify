@@ -1,0 +1,33 @@
+.track {
+  display: grid;
+  grid-template-areas: "index title actions" "index artist actions";
+  grid-template-columns: auto 1fr auto;
+  grid-template-rows: 1fr 1fr;
+  column-gap: 0.5rem;
+  align-items: center;
+  border: 1px;
+
+  .index {
+    grid-area: index;
+    padding: 0.5rem;
+  }
+
+  .title {
+    grid-area: title;
+  }
+
+  .artist {
+    grid-area: artist;
+  }
+
+  .title,
+  .artist {
+    word-break: none;
+    white-space: nowrap;
+    overflow: auto;
+  }
+
+  .actions {
+    grid-area: actions;
+  }
+}

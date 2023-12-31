@@ -42,7 +42,7 @@ export class ProgrammeComponent {
       const response = await this.spotifyService.createPlaylist({
         description: `${description}${
           description.endsWith('.') ? '' : '.'
-        } Created by BBC Sounds 2 Spotify.`,
+        } Created by BBC Sounds to Spotify.`,
         title: `${this.programme?.info.container.title} - ${this.programme?.info.release.label}`,
         trackIds:
           this.programme?.tracks

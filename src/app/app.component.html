@@ -1,9 +1,9 @@
 <mat-sidenav-container>
   <mat-toolbar color="primary">
     <mat-toolbar-row>
-      <span>Sounds 2 Spotify</span>
+      <span>Sounds to Spotify</span>
       <span style="flex: 1"></span>
-      <button *ngIf="!userImageUrl" mat-flat-button (click)="signIn()">
+      <button *ngIf="!userIsSignedIn" mat-flat-button (click)="signIn()">
         Sign in
       </button>
       <img
@@ -13,6 +13,13 @@
         alt="Spotify user image"
         [matMenuTriggerFor]="menu"
       />
+      <button
+        *ngIf="userIsSignedIn && !userImageUrl"
+        mat-flat-button
+        (click)="signOut()"
+      >
+        Sign out
+      </button>
       <mat-menu #menu="matMenu">
         <button mat-menu-item (click)="signOut()">Sign out</button>
       </mat-menu>

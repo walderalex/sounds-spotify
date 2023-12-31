@@ -9,17 +9,22 @@ import { SpotifyService } from './spotify.service';
 export class AppComponent {
   title = 'sounds-2-spotify';
   userImageUrl: string;
+  userIsSignedIn: boolean;
   constructor(private spotifyService: SpotifyService) {
     this.userImageUrl = '';
+    this.userIsSignedIn = false;
   }
 
   signOut() {
     this.spotifyService.signOut();
     this.userImageUrl = '';
+    this.userIsSignedIn = false;
   }
 
   ngOnInit() {
-    if (this.spotifyService.isSignedIn()) {
+    const isSignedIn = this.spotifyService.isSignedIn();
+    this.userIsSignedIn = isSignedIn;
+    if (isSignedIn) {
       this.loadUser();
     }
   }

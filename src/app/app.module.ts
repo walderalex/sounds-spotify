@@ -24,7 +24,6 @@ import { TrackComponent } from './track/track.component';
 
 import { FormsModule } from '@angular/forms';
 import { CallbackComponent } from './callback/callback.component';
-import { SignInComponent } from './sign-in/sign-in.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +32,6 @@ import { SignInComponent } from './sign-in/sign-in.component';
     ProgrammeComponent,
     TrackComponent,
     CallbackComponent,
-    SignInComponent,
   ],
   imports: [
     BrowserModule,

@@ -32,6 +32,7 @@ export class AppComponent {
   private async loadUser() {
     const user = await this.spotifyService.getCurrentUser();
     this.userImageUrl = (user.images as any[])?.[0]?.url as string;
+    this.userIsSignedIn = !!user;
   }
 
   signIn() {

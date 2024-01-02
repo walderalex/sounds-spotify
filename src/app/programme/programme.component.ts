@@ -43,7 +43,11 @@ export class ProgrammeComponent {
         description: `${description}${
           description.endsWith('.') ? '' : '.'
         } Created by BBC Sounds to Spotify.`,
-        title: `${this.programme?.info.container.title} - ${this.programme?.info.release.label}`,
+        title: `${this.programme?.info.titles.primary}${
+          this.programme?.info.titles.secondary
+            ? ` - ${this.programme.info.titles.secondary}`
+            : ''
+        } - ${this.programme?.info.release.label}`,
         trackIds:
           this.programme?.tracks
             .filter((t) => t.uris.find((u) => u.label === 'Spotify'))

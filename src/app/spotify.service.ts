@@ -169,6 +169,7 @@ export class SpotifyService {
           'user-read-private',
           'user-read-email',
           'playlist-modify-public',
+          'playlist-read-private',
           'playlist-modify-private',
           'ugc-image-upload',
         ]);
@@ -202,6 +203,17 @@ export class SpotifyService {
     try {
       const token = await this.getToken();
       const user = await this.getCurrentUser();
+      const playlistsResp = await fetch(
+        `${this.baseUrl}/me/playlists?limit=50&offset=0`,
+        {
+          headers: { Authorization: `Bearer ${token}` },
+        }
+      );
+      const playlists = (await playlistsResp.json()).items as any[];
+      const existingPlaylist = playlists.find((p) => p.name === title);
+      if (existingPlaylist) {
+        return existingPlaylist.external_urls?.spotify;
+      }
       const resp = await fetch(`${this.baseUrl}/users/${user.id}/playlists`, {
         method: 'POST',
         headers: { Authorization: `Bearer ${token}` },

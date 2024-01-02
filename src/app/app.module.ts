@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { NgModule, isDevMode } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { MatButtonModule } from '@angular/material/button';
@@ -24,6 +24,7 @@ import { TrackComponent } from './track/track.component';
 
 import { FormsModule } from '@angular/forms';
 import { CallbackComponent } from './callback/callback.component';
+import { ServiceWorkerModule } from '@angular/service-worker';
 
 @NgModule({
   declarations: [
@@ -50,6 +51,12 @@ import { CallbackComponent } from './callback/callback.component';
     MatTooltipModule,
     MatListModule,
     MatDialogModule,
+    ServiceWorkerModule.register('ngsw-worker.js', {
+      enabled: !isDevMode(),
+      // Register the ServiceWorker as soon as the application is stable
+      // or after 30 seconds (whichever comes first).
+      registrationStrategy: 'registerWhenStable:30000'
+    }),
   ],
   providers: [],
   bootstrap: [AppComponent],

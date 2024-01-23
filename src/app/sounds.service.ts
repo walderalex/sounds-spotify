@@ -13,12 +13,12 @@ export class SoundsService {
   }
 
   getRecents() {
-    const numItems = sessionStorage.length;
+    const numItems = localStorage.length;
     const items: { data: any; time: string }[] = [];
     for (let i = 0; i < numItems; i++) {
-      const key = sessionStorage.key(i);
+      const key = localStorage.key(i);
       if (key?.startsWith(this.cacheKey)) {
-        items.push(JSON.parse(sessionStorage.getItem(key) as any));
+        items.push(JSON.parse(localStorage.getItem(key) as any));
       }
     }
     items.sort(
@@ -34,10 +34,10 @@ export class SoundsService {
   }
 
   async getTracklist(url: string) {
-    const cacheHit = sessionStorage.getItem(`${this.cacheKey}:${url}`);
+    const cacheHit = localStorage.getItem(`${this.cacheKey}:${url}`);
     if (cacheHit) {
       const data = JSON.parse(cacheHit);
-      sessionStorage.setItem(
+      localStorage.setItem(
         `${this.cacheKey}:${url}`,
         JSON.stringify({ data: data.data, time: new Date().toISOString() })
       );
@@ -48,7 +48,7 @@ export class SoundsService {
     const resp = await fetch(urlObj.toString());
     if (resp.status === 200) {
       const data = await resp.json();
-      sessionStorage.setItem(
+      localStorage.setItem(
         `${this.cacheKey}:${url}`,
         JSON.stringify({ data, time: new Date().toISOString() })
       );

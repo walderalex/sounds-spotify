@@ -31,4 +31,14 @@
     display: flex;
     gap: 1rem;
   }
+
+  .creds {
+    padding-top: 2rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+    justify-content: center;
+  }
 }

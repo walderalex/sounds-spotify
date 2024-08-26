@@ -8,7 +8,7 @@
     "debug": "node --inspect node_modules/.bin/functions-framework --source=build/src/ --target=exchangeSpotifyToken",
     "watch": "concurrently \"npm run compile -- --watch\" \"nodemon --watch ./build/ --exec npm run debug\"",
     "predeploy": "npm i && npm run compile",
-    "deploy": "gcloud functions deploy refreshSpotifyToken --runtime nodejs18 --source ./build --trigger-http --env-vars-file env.yaml"
+    "deploy": "gcloud functions deploy refreshSpotifyToken --runtime nodejs18 --source ./build --trigger-http --env-vars-file .env.yaml"
   },
   "keywords": [],
   "author": "",
